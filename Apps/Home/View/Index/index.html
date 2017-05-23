@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>JS限制文本字数</title>
+        <script type="text/javascript" src="http://www.codefans.net/ajaxjs/jquery-1.6.2.min.js"></script>
+        <style>
+                .newsWord{
+                        width:400px;
+                        marigin:0 auto;
+                        line-height:1.5em;
+
+                }
+                .newsWord a{
+                        color:#A70312;
+                        text-decoration:none;
+                }
+                .newsWord a:hover{
+                        color:#A70312;
+
+                        text-decoration:none;
+                }
+        </style>
+        <script>
+                $(document).ready(function(){
+                        $(".newsWord").each(function()
+                        {
+                                var maxwidth=100;
+                                if($(this).text().length>maxwidth){
+                                        $(this).text($(this).text().substring(0,maxwidth));
+                                        $(this).html($(this).html()+"<a href='#'>[详细]</a>");
+                                }
+                        });
+                });
+        </script>
+</head>
+<body>
+<p class="newsWord">JS限制文本字数，限制一百字，就是说我打一大段文字只能显示一百字。很明显，我现在打的这些字没有1一百个字，所以，我决定复制粘贴~哈哈~~JS限制文本字数，限制一百字，就是说我打一大段文字只能显示一百字。很明显，我现在打的这些字没有1一百个字，所以，我决定复制粘贴~哈哈~~JS限制文本字数，限制一百字，就是说我打一大段文字只能显示一百字。很明显，我现在打的这些字没有1一百个字，所以，我决定复制粘贴~哈哈~~JS限制文本字数，限制一百字，就是说我打一大段文字只能显示一百字。很明显，我现在打的这些字没有1一百个字，所以，我决定复制粘贴~哈哈~~JS限制文本字数，限制一百字，就是说我打一大段文字只能显示一百字。很明显，我现在打的这些字没有1一百个字，所以，我决定复制粘贴~哈哈~~看看效果吧~</p>
+</body>
+</html>

@@ -46,6 +46,12 @@
                         alert("账户必须填写");
                         return false;
                     }
+                    var x=document.forms["myForm"]["password"].value;
+                    if (x==null || x=="")
+                    {
+                        alert("密码不能为空");
+                        return false;
+                    }
 
     }
 </script>

@@ -1,0 +1,938 @@
+[ 2017-05-25T23:07:03+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005060s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003450s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2017-05-25T23:26:57+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002588s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001663s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003772s ]
+
+[ 2017-05-25T23:27:02+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004390s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0281s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name`,`password` FROM `think_admin` WHERE `password` = 'admin' LIMIT 1  
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name`,`password` FROM `think_admin` WHERE `password` = 'admin' LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-05-25T23:27:08+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-05-25T23:27:15+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name`,`password` FROM `think_admin` WHERE `password` = '' LIMIT 1  
+ERR: 1054:Unknown column 'name' in 'field list'
+ [ SQL语句 ] : SELECT `name`,`password` FROM `think_admin` WHERE `password` = '' LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-05-25T23:27:44+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003268s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001705s ]
+
+[ 2017-05-25T23:27:50+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = 'admin' LIMIT 1   [ RunTime:0.0167s ]
+NOTIC: [8] Undefined index: userid /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 32 行.
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 33 行.
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 34 行.
+NOTIC: [8] Undefined index: lastdate /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 35 行.
+NOTIC: [8] Undefined index: lastip /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0028s ]
+SQL: UPDATE `think_admin` SET `password`='admin' WHERE `password` = 'admin' [ RunTime:0.0109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2017-05-25T23:27:51+08:00 ] ::1 /tp/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-05-25T23:29:06+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-05-25T23:29:10+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0086s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: userid /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 32 行.
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 33 行.
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 34 行.
+NOTIC: [8] Undefined index: lastdate /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 35 行.
+NOTIC: [8] Undefined index: lastip /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0038s ]
+SQL: UPDATE `think_admin` SET `password`='admin' WHERE `password` = 'admin' [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2017-05-25T23:29:11+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-05-25T23:30:07+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: userid /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 32 行.
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 33 行.
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 34 行.
+NOTIC: [8] Undefined index: lastdate /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 35 行.
+NOTIC: [8] Undefined index: lastip /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0030s ]
+SQL: UPDATE `think_admin` SET `password`='admin' WHERE `password` = 'admin' [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2017-05-25T23:30:08+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-05-25T23:40:55+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: userid /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 32 行.
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 33 行.
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 34 行.
+NOTIC: [8] Undefined index: lastdate /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 35 行.
+NOTIC: [8] Undefined index: lastip /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0027s ]
+SQL: UPDATE `think_admin` SET `password`='admin' WHERE `password` = 'admin' [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2017-05-25T23:40:56+08:00 ] ::1 /tp/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2017-05-25T23:41:26+08:00 ] ::1 /tp/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004665s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2017-05-25T23:41:30+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-05-25T23:41:31+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 26 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = null LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2017-05-25T23:41:32+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2017-05-25T23:41:38+08:00 ] ::1 /tp/index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 26 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2017-05-25T23:41:42+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-05-25T23:41:47+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 26 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2017-05-25T23:41:50+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2017-05-25T23:42:06+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 26 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = null LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2017-05-25T23:42:08+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2017-05-25T23:42:10+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: data /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 26 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = null LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2017-05-25T23:42:11+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-05-25T23:42:20+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2017-05-25T23:42:21+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: userid /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 32 行.
+NOTIC: [8] Undefined index: nickname /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 33 行.
+NOTIC: [8] Undefined index: name /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 34 行.
+NOTIC: [8] Undefined index: lastdate /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 35 行.
+NOTIC: [8] Undefined index: lastip /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0023s ]
+SQL: UPDATE `think_admin` SET `password`='admin' WHERE `password` = 'admin' [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-05-25T23:42:22+08:00 ] ::1 /tp/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2017-05-25T23:42:25+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-05-25T23:42:28+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = '123456' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2017-05-25T23:42:29+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2017-05-25T23:57:25+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = 'admi1' LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2017-05-25T23:57:28+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2017-05-25T23:57:32+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_admin` [ RunTime:0.0035s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+NOTIC: [8] Undefined index: username /Applications/MAMP/htdocs/tp/Apps/Home/Controller/LoginController.class.php 第 25 行.
+SQL: SELECT `username`,`password` FROM `think_admin` WHERE `password` = '' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+
+[ 2017-05-25T23:57:35+08:00 ] ::1 /tp/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/tp/Apps/Common/Conf/config.php:1) /Applications/MAMP/htdocs/tp/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+

@@ -22,18 +22,18 @@ class LoginController extends Controller{
 
             // 组合查询条件
             $where = array();
-            $where['name'] = $data['name'];
+            $where['useaname'] = $data['username'];
             $where['password'] = $data['password'];
-            $result = $login->where($where)->field('name,password')->find();
+            $result = $login->where($where)->field('username,password')->find();
 
             // 验证用户名 对比 密码
             if ($result && $result['password'] == $result['password']) {
                 // 存储session
                 session('uid', $result['userid']);          // 当前用户id
                 session('nickname', $result['nickname']);   // 当前用户昵称
-                session('name', $result['name']);   // 当前用户名
-                session('lastdate', $result['lastdate']);   // 上一次登录时间
-                session('lastip', $result['lastip']);       // 上一次登录IP
+                session('username', $result['username']);   // 当前用户名
+                session('login_time', $result['login_time']);   // 上一次登录时间
+                session('login_ip', $result['login_ip']);       // 上一次登录IP
 
                  //更新用户登录信息
                 $where['userid'] = session('uid');

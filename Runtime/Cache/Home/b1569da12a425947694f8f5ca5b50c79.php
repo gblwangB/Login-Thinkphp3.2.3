@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="/static/li/li-1.2.0.css">
 </head>
 <body>
-<form  name="myForm" action="/tp/index.php/home/login/login"   onsubmit="return validateForm()" method="post" >
+<form  name="myForm" action="/tp/index.php/Home/Login/login.html"   onsubmit="return validateForm()" method="post" >
 用户名:<input type="text" name="name"><br/>
   密码:<input type="password" name="password"><br/>
        <input type="submit" value="提交">
@@ -39,20 +39,20 @@
 <script src="/tp/Public/Hom/js/plugins/pace/pace.min.js"></script>
 <script type="text/javascript">
                 function validateForm()
-                {
-                    var x=document.forms["myForm"]["name"].value;
-                    if (x==null || x=="")
-                    {
-                        alert("账户必须填写");
-                        return false;
-                    }
-                    var x=document.forms["myForm"]["password"].value;
-                    if (x==null || x=="")
-                    {
-                        alert("密码不能为空");
-                        return false;
-                    }
-
-    }
+//                {
+//                    var x=document.forms["myForm"]["name"].value;
+//                    if (x==null || x=="")
+//                    {
+//                        alert("账户必须填写");
+//                        return false;
+//                    }
+//                    var x=document.forms["myForm"]["password"].value;
+//                    if (x==null || x=="")
+//                    {
+//                        alert("密码不能为空");
+//                        return false;
+//                    }
+//
+//    }
 </script>
 </html>

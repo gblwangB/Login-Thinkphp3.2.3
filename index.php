@@ -27,4 +27,6 @@ define('RUNTIME_PATH','./Runtime/');
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 
+ini_set("session.save_handler", "user");//设置PHP的SESSION由用户定义
+
 // 亲^_^ 后面不需要任何代码了 就是如此简单

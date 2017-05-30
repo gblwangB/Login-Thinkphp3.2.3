@@ -10,6 +10,7 @@ class LoginController extends Controller{
     //登录
     public function login(){
         if (IS_POST) {
+            M('admin')->where($where)->setInc('login_number');   // 登录次数加 1
             // 实例化Login对象
             $login = D('admin');
 
@@ -24,7 +25,7 @@ class LoginController extends Controller{
             $where = array();
             $where['useaname'] = $data['username'];
             $where['password'] = $data['password'];
-            $result = $login->where($where)->field('username,password')->find();
+            $result = $login->where($where)->field('username,password,login_time')->find();
 
             // 验证用户名 对比 密码
             if ($result && $result['password'] == $result['password']) {
@@ -34,17 +35,29 @@ class LoginController extends Controller{
                 session('username', $result['username']);   // 当前用户名
                 session('login_time', $result['login_time']);   // 上一次登录时间
                 session('login_ip', $result['login_ip']);       // 上一次登录IP
-
-                 //更新用户登录信息
-                $where['userid'] = session('uid');
-                M('admin')->where($where)->setInc('loginnum');   // 登录次数加 1
-                M('admin')->where($where)->save($data);   // 更新登录时间和登录ip
-                $this->success('登录成功,正跳转至系统首页..', U('Index/index'));
-            } else {
-                $this->error('登录失败,帐号或者密码错误!',U('Login/login'));
-            }
-        } else {
             $this->display();
         }
     }
+    /*
+     *
+     * add
+     */
+    //注册
+    public  function add(){
+        if (IS_POST) {
+            $From    =   D('admin');
+            if($From->create()){
+                $result =   $From->add();
+                $this->success('注册成功!',U('Login/Login'));
+            }else{
+                $this->error('写入错误',u('Login/add'));
+            }
+        }else{
+            $this->display();
+        }
+    }
+
+
+
+
 }

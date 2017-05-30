@@ -10,11 +10,11 @@
     <meta http-equiv="Expires" content="0" />
     <meta name="format-detection" content="telephone=no" >
 
-    <title>login登录</title>
+        <title>login登录</title>
     <link rel="stylesheet" type="text/css" href="/static/li/li-1.2.0.css">
 </head>
 <body>
-<form  name="myForm" action="/tp/index.php/Home/Login/login.html"   onsubmit="return validateForm()" method="post" >
+<form  name="myForm" action="/tp/index.php/home/login/login"   onsubmit="return validateForm()" method="post" >
 用户名:<input type="text" name="name"><br/>
   密码:<input type="password" name="password"><br/>
        <input type="submit" value="提交">
